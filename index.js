@@ -13,7 +13,25 @@ console.log(selectedAge);
 
 //Here name is a parameter whereas
 function greet(name, l_name) {
-  console.log("Hello " + name +" "+   l_name);
+  console.log("Hello " + name + " " + l_name);
 }
 //Prashant ia an argument
 greet("Prashant", "Bhattarai");
+
+// ###  Learning Arrays in JS  ###
+
+//Check whether the array contain the certain item
+
+const fruits = ["Apple", "Banana", "Grapes", "Dragonfruit"];
+
+// let include = fruits.includes("Yunu");
+let include = fruits.indexOf("Prashant") !== -1;
+console.log(include);
+
+//Appending the new item to the array
+const newLength = fruits.push("Guava");
+console.log(fruits);
+
+// Removing the last item from the array
+const removeItem = fruits.pop();
+console.log(fruits);
