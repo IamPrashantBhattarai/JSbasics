@@ -22,7 +22,7 @@ greet("Prashant", "Bhattarai");
 
 //Check whether the array contain the certain item
 
-const fruits = ["Apple", "Banana", "Grapes", "Dragonfruit"];
+const fruits = ["Apple", "Banana", "Grapes", "Dragonfruit", "Mango"];
 
 // let include = fruits.includes("Yunu");
 let include = fruits.indexOf("Prashant") !== -1;
@@ -34,4 +34,18 @@ console.log(fruits);
 
 // Removing the last item from the array
 const removeItem = fruits.pop();
+console.log(fruits);
+
+// Removing multiple items from the end
+item = -2;
+const removedItems = fruits.splice(item);
+console.log(fruits);
+
+// counting from the first
+start = 2;
+const removeddItems = fruits.splice(start);
+console.log(fruits);
+
+// Removing the first items from the array
+const firstRemovedItem = fruits.shift();
 console.log(fruits);
