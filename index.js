@@ -53,6 +53,8 @@ console.log(fruits);
 const fruits1 = ["Apple", "Strawberry", "Cherry", "Banana", "Mango"];
 const start1 = 0;
 const deleteCount = 3;
-const removedItems1 = fruits1.splice(start, deleteCount);
+const removedItems1 = fruits1.splice(start1, deleteCount);
 console.log(fruits1);
 console.log(removedItems1);
+
+// Here start means the index from where the removing starts and delete count is the count upto which it should be removed .
